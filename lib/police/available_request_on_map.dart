@@ -101,7 +101,7 @@ class _LocationOnMapState extends State<LocationOnMap> {
 
     List<LatLng> polylineCoordinates = [];
     PolylineResult result = await polylinePoints.getRouteBetweenCoordinates(
-      'AIzaSyAntt3LIuduhnuBDOj1GGwmh7rmbi1w0vQ',
+      '',
       PointLatLng(
           widget.locations[n - 1].latitude, widget.locations[n - 1].longitude),
       PointLatLng(widget.locations[0].latitude, widget.locations[0].longitude),
